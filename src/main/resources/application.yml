@@ -1,0 +1,29 @@
+server:
+  port: 9004
+
+spring:
+  data:
+    mongodb:
+      database: user_db
+      port: 27017
+  application:
+    name: LOGIN-SERVICE
+
+jackson:
+  deserialization:
+    FAIL_ON_IGNORED_PROPERTIES: false
+  serialization:
+    INDENT_OUTPUT: false
+    WRITE_DATES_AS_TIMESTAMPS: false
+    WRITE_BIGDECIMAL_AS_PLAIN: true
+
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    hostname: eureka-0
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
