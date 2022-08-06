@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.annuaire</groupId>
 	<artifactId>login-service</artifactId>
-	<version>0.0.1-kubernetes</version>
+	<version>0.0.1-compose</version>
 	<name>login-service</name>
 	<description>Authentification</description>
 	<properties>

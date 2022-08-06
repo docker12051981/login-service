@@ -4,8 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      database: user_db
-      port: 27017
+      uri: mongodb://mongo1:27017,mongo2:27027,mongo3:27037/?replicaSet=rs0&retryWrites=true/user_db
   application:
     name: LOGIN-SERVICE
 
